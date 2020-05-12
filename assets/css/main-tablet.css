@@ -17,7 +17,7 @@
         left: -25px;
     }
     .dropdown-content.click {
-        height: 87px;
+        height: 118px;
     }
 
     /* body content */
@@ -37,6 +37,10 @@
     .header {
         margin: 0 auto;
         width: 65%;
+    }
+
+    .menu-item-p {
+        font-size: 1.3em;
     }
 }
 

@@ -27,7 +27,7 @@
 	}
 
 	.dropdown-content.click {
-		height: 87px;
+		height: 118px;
 	}
 	.dropdown-content{
 		margin-top: 20px;
@@ -46,5 +46,9 @@
         margin: 0 auto;
         width: 85%;
         text-align: center;
+    }
+
+    .menu-item-p {
+    	font-size: 1.3em;
     }
 }
