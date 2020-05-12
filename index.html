@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About | orso.io</title>
+
+	<!-- heading -->
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes ">
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-phone.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-tablet.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-desktop.css" rel="stylesheet" type="text/css">
+
+<meta name="author" content="Matteo Dunnhofer" >
+<meta name="keywords" content="computer science, artificial intelligence, machine learning, deep learning, reinforcement learning, computer vision, medical image analysis, skateboarding, tarvisio, udine, uniud">
+<link rel="shortcut icon" href="assets/images/logos/brackets_logo.jpg" />
+
+<!-- google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Computer Modern Serif-->
+<link rel="stylesheet" href="assets/fonts/Serif/cmun-serif.css"></link>
+
+<!-- Ubuntu Mono font -->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+
+<!-- MathJax -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<!-- cookie consent bar -->
+<!--
+<link href="css/cookie-consent.css" rel="stylesheet" type="text/css">
+<?php require_once("cookie-consent.php") ?> -->
+
+	<meta name="description" content="Find a little more about Matteo's experience.">
+
+	<link href="assets/css/about-me.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- header bar -->
+	<!-- header block -->
+<div class="header">
+	<div class="title">
+		<a href="index.html"><h3 class="content-title-main" id="left-bracket">{</h3>
+                        <h3 class="content-title-main" id="bracket-content">orso.io</h3>
+                        <h3 class="content-title-main" id="right-bracket">}</h3></a>
+	</div>
+	
+	<div class="dropdown">
+		<div class="content-block">
+			<img src="assets/images/logos/hamburger.png" class="logo-hamburger">
+  			<!-- <h3 class="content-title">Contents</h3> -->
+  		</div>
+	</div>
+  <div class="dropdown-content">
+    <!-- <a class="menu-item" href="about.html"><pre><h4>1  About</h4></pre></a> -->
+    <!-- <a class="menu-item" href="software.php"><pre><h4><b>2  Software</b></h4></pre></a> -->
+    <a class="menu-item" href="publications.html"><pre><h4><b>Publications</b></h4></pre></a>
+    <a class="menu-item" href="https://orso.io/blog/"><pre><h4><b>Blog</b></h4></pre></a>
+    <a class="menu-item" href="contact.html"><pre><h4><b>Contact</b></h4></pre></a>
+  </div>
+</div>
+
+<!-- menu click handler -->
+<script> 
+  $( document ).ready(function() {
+    $('.content-block').click(function() {
+      $('.dropdown-content').toggleClass('click');
+    });
+  });
+  $( document ).ready(function() {
+    $('.content-block').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+  $( document ).ready(function() {
+    $('.dropdown-content').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+</script>
+
+	<div id="content-about-me">
+	<img src="assets/images/2019_rgb_circle_opt.png" id="profile-image">
+	<p class="about-me" id="hello-about-me">Hello!</p>
+	<p class="about-me" id="hello-about-me">My name is Matteo Dunnhofer.</p>
+	<p class="text-about-me">I am currently a PhD student at the <strong><a href="http://www.uniud.it">University of Udine</a></strong> under the supervision of <strong><a href="https://users.dimi.uniud.it/~christian.micheloni/">Prof. Christian Micheloni</a></strong>. 
+	I received the BSc and MSc in Computer Science from the same institute in 2016 and 2018 respectively. 
+	During my Master's I was also a visiting student at the <strong><a href="https://www.roboticvision.org">Australian Centre for Robotic Vision</a></strong>.</p>
+	<p class="text-about-me">The goal of my research is to let machines understand how objects move and change through time, by learning from real-world examples.
+	More specifically, I design and implement <strong>deep learning</strong> and <strong>reinforcement learning</strong> algorithms to tackle problems in <strong>computer vision</strong>, in particular for <strong>visual object tracking</strong>. 
+	I am also very keen in applying such techniques in the context of <strong>medical image analysis</strong>, in order to let computers improve people's health.</p>
+	<!-- <p class="text-about-me">I am a <strong>software developer</strong> with a lot of <strong>passion</strong> for my job. I try my best in every work I get in. I love to improve my skills, to <strong>always learn new things</strong> and put them into practice. I design and realize mainly desktop and mobile applications, trying to take inspiration from every field of Computer Science. On this website, as well as on GitHub, you can find my relevant projects and works.</p> -->
+	<!-- <p class="text-about-me" id="text-about-me-3">A second important thing to me is skateboarding. I spend my free time cruising around the streets with my friends. You can watch something <a class="normal-link" href="https://www.youtube.com/playlist?list=PL5Srl3Mpw1pFSVsbQPKjfkyyC0azKTQbq">here</a>.</p> -->
+	
+	<div id="content-logos">
+		<a href="http://www.facebook.com/dontfollowmeimcrazy"><img src="assets/images/logos/facebook_circle.png" class="content-logo" id="logo-fb"></a>
+		<a href="http://www.twitter.com/dfmic"><img src="assets/images/logos/twitter_logo_circle.png" class="content-logo" id="logo-tw"></a>
+		<a href="https://it.linkedin.com/in/dontfollowmeimcrazy"><img src="assets/images/logos/linkedin.png" class="content-logo" id="logo-in"></a>
+		<a href="https://github.com/dontfollowmeimcrazy"><img src="assets/images/logos/github.png" class="content-logo" id="logo-in"></a>
+		<a href="https://www.kaggle.com/dontfollowmeimcrazy"><img src="assets/images/logos/kaggle.png" class="content-logo" id="logo-in"></a>
+	</div>
+</div>
+
+<div id="content-news">
+    <p class="about-me" id="news-title">News</p>
+
+    <p class="text-news">[2019-12] My first journal paper "Siam-U-Net: encoder-decoder siamese network for knee cartilage tracking in ultrasound images" was accepted for publication in <a href="https://www.journals.elsevier.com/medical-image-analysis">Medical Image Analysis</a>!.</p>
+
+    <p class="text-news">[2019-11] Two papers published in <a href="https://www.umbjournal.org/issue/S0301-5629(19)X0014-9">Ultrasound in Medicine and Biology</a>!</p>
+
+    <p class="text-news">[2019-08] My very first first-author paper was accepted at the <a href="http://www.votchallenge.net/vot2019/">VOT workshop</a> held in conjunction with <a href="http://iccv2019.thecvf.com">ICCV 2019</a>. <a href="https://arxiv.org/abs/1909.08487">Here is a preprint</a> of the paper.</p>
+    
+</div>
+
+<footer>
+	<p id="footer">Copyright © 2016-2020 Matteo Dunnhofer. All rights reserved.</p>
+	<!--
+	<a href="//www.iubenda.com/privacy-policy/7952031" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>
+	<script type="text/javascript">
+	(function (w,d) {
+		var loader = function () {
+			var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; 
+			s.src = "//cdn.iubenda.com/iubenda.js"; 
+			tag.parentNode.insertBefore(s,tag);
+		}; 
+		if(w.addEventListener){
+			w.addEventListener("load", loader, false);
+		}else if(w.attachEvent){
+			w.attachEvent("onload", loader);
+		}else{
+			w.onload = loader;
+		}
+	})(window, document);
+	</script>
+	-->
+</footer>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82663987-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

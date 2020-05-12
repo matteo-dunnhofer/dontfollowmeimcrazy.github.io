@@ -1,0 +1,9 @@
+.cc-message {
+	font-family: 'Computer Modern Serif';
+	color: 'black';
+}
+
+.cc-link:link {
+	color: #4b81e8 !important;
+	text-decoration: 'underline' !important;
+}

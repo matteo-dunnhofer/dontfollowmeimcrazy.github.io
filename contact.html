@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact | orso.io</title>
+
+	<!-- heading -->
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes ">
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-phone.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-tablet.css" rel="stylesheet" type="text/css">
+<link href="assets/css/main-desktop.css" rel="stylesheet" type="text/css">
+
+<meta name="author" content="Matteo Dunnhofer" >
+<meta name="keywords" content="computer science, artificial intelligence, machine learning, deep learning, reinforcement learning, computer vision, medical image analysis, skateboarding, tarvisio, udine, uniud">
+<link rel="shortcut icon" href="assets/images/logos/brackets_logo.jpg" />
+
+<!-- google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Computer Modern Serif-->
+<link rel="stylesheet" href="assets/fonts/Serif/cmun-serif.css"></link>
+
+<!-- Ubuntu Mono font -->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+
+<!-- MathJax -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<!-- cookie consent bar -->
+<!--
+<link href="css/cookie-consent.css" rel="stylesheet" type="text/css">
+<?php require_once("cookie-consent.php") ?> -->
+
+	<meta name="description" content="Get in touch with Matteo!">
+
+	<link href="assets/css/contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- header bar -->
+	<!-- header block -->
+<div class="header">
+	<div class="title">
+		<a href="index.html"><h3 class="content-title-main" id="left-bracket">{</h3>
+                        <h3 class="content-title-main" id="bracket-content">orso.io</h3>
+                        <h3 class="content-title-main" id="right-bracket">}</h3></a>
+	</div>
+	
+	<div class="dropdown">
+		<div class="content-block">
+			<img src="assets/images/logos/hamburger.png" class="logo-hamburger">
+  			<!-- <h3 class="content-title">Contents</h3> -->
+  		</div>
+	</div>
+  <div class="dropdown-content">
+    <!-- <a class="menu-item" href="about.html"><pre><h4>1  About</h4></pre></a> -->
+    <!-- <a class="menu-item" href="software.php"><pre><h4><b>2  Software</b></h4></pre></a> -->
+    <a class="menu-item" href="publications.html"><pre><h4><b>Publications</b></h4></pre></a>
+    <a class="menu-item" href="https://orso.io/blog/"><pre><h4><b>Blog</b></h4></pre></a>
+    <a class="menu-item" href="contact.html"><pre><h4><b>Contact</b></h4></pre></a>
+  </div>
+</div>
+
+<!-- menu click handler -->
+<script> 
+  $( document ).ready(function() {
+    $('.content-block').click(function() {
+      $('.dropdown-content').toggleClass('click');
+    });
+  });
+  $( document ).ready(function() {
+    $('.content-block').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+  $( document ).ready(function() {
+    $('.dropdown-content').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+</script>
+
+	<!-- contact form -->
+<div class="content-contact" id="content-contact">
+    <p id="text-contact">You can reach me by e-mail at the following addresses</p>
+    <p id="text-contact-email" style="padding-top:20px;"><a id="link-contact-email" href="mailto:matteo.dunnhofer@uniud.it">matteo.dunnhofer@uniud.it</a></p>
+    <p id="text-contact">or</p>
+    <p id="text-contact-email" style="padding-bottom:20px;"><a id="link-contact-email" href="mailto:matteo@orso.io">matteo@orso.io</a></p>
+    <p id="text-contact" style="padding-bottom:20px;">alternatively you can find me at</p>
+    <p id="text-contact">Machine Learning and Perception Lab</p>
+    <p id="text-contact"><a  href="https://www.dmif.uniud.it/">Department of Mathematics, Computer Science and Physics</a></p>
+    <p id="text-contact"><a  href="http://www.uniud.it">University of Udine</a></p>
+    <p id="text-contact">via delle Scienze 206, 33100 Udine, Italy</p>
+    
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.495392755934!2d13.209758315514616!3d46.08110197911306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x625202800b966414!2sUniversit%C3%A0+degli+Studi+di+Udine+-+Polo+Scientifico+Rizzi!5e0!3m2!1sit!2sit!4v1542485774215" id="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+  
+</div>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82663987-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

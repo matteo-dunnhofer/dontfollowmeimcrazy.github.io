@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1025px) {
+    /* header */
+    .title {
+        display: inline-block;
+        float: left;
+        /* padding-left: 15%; */
+    }
+    #bracket-content {
+        vertical-align: bottom;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        height: 100%;
+        /* width: 0; */
+        -webkit-transition: width 1s;
+        transition: width 1s;
+    }
+    .title:hover #bracket-content {
+        width: 62px; /* 178 for matteo dunnhofer */
+    }
+
+    /* menu and menu items style */
+    .dropdown {
+        /* position: relative; */
+        /* float: right; */
+        /* padding-right: 15%; */
+        /* display: inline-block; */
+    }
+
+    .dropdown-content {
+            /* position: absolute; */
+            /* padding: 0 40px; */
+            margin-top: 20px;
+            left: -25px;
+    }
+    /*.dropdown:hover .dropdown-content {
+        height: 200px;
+    }*/
+    .dropdown-content.hover {
+        height: 130px;
+    }
+    .dropdown-content a {
+        opacity: 1;
+        -webkit-transition: opacity 1s;
+        transition: opacity 1s;
+    }
+    .header {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+   
+
+    /* body content */
+    .img-text {
+        font-size: 50px;
+        color: white;
+        position: absolute;
+        top: 315px; 
+        right: 50%;
+    }
+
+}

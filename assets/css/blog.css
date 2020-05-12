@@ -1,0 +1,47 @@
+#content-wordpress {
+	margin: 0 auto;
+    width: 85%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#content-blog-text {
+	position: relative;
+	width: 50%;
+	text-align: justify;
+}
+.content-date-author {
+	margin-top: -20px;
+	font-size: 14px;
+	color: gray;
+}
+.continue-reading:link {
+	text-decoration: underline;
+}
+
+.postWrapper {
+	padding-bottom: 50px;
+}
+
+.post-title {
+	text-align: center;
+}
+.post-subtitle {
+	margin-top: 0px;
+	text-align: center;
+	color: gray;
+}
+
+.postMeta {
+	text-align: center;
+}	
+
+.recent-posts-2 {
+	font-weight: bold;
+}
+
+.break-line {
+	width: 100%;
+	color: black;
+	background-color: black;
+}

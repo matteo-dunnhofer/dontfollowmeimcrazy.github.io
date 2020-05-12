@@ -1,0 +1,155 @@
+.container-pubs {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.container-2-pubs {
+	display: flex;
+}
+
+.content-pubs {
+	/* height: 0;
+	padding-bottom: 100%; */
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+.pubs-div {
+	/* height: 0;
+	padding-bottom: 100%; */
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+.pubs-title {
+	word-break: break-word;
+	text-align: left;
+	margin: 0;
+}
+
+.pubs-author {
+    font-weight: normal;
+    font-style: italic;
+	word-break: break-word;
+	text-align: left;
+	margin: 0;
+}
+
+.pubs-where {
+    font-weight: normal;
+	word-break: break-word;
+	text-align: left;
+	margin: 0;
+}
+
+.pubs-type {
+    font-weight: normal;
+	word-break: break-word;
+	text-align: left;
+	margin: 0;
+}
+
+.pubs-link {
+    display: inline-block;
+    font-family: 'Ubuntu-Mono';
+    font-weight: normal;
+	word-break: break-word;
+	text-align: left;
+	margin: 0;
+}
+
+.pubs-image {
+    object-fit: contain;
+}
+
+.software-description {
+	text-align: justify;
+}
+
+#page-title {
+    margin: 0 auto;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+	.container-pubs {
+		padding-top: 20px;
+	}
+
+	.pubs-div {
+	    width: 85%;
+	    padding-bottom: 60px;
+	}
+	
+	.pubs-image {
+	    width: 100%;
+	    margin-bottom: 20px;
+    }
+    
+    #page-title {
+        text-align: justify
+    }
+    
+    #pubs-container-title-div {
+        padding-bottom: 50px;
+    }
+
+}
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px)  {
+	.container-pubs {
+		padding-top: 100px;
+	}
+
+	.pubs-div {
+	    width: 65%;
+	    padding-bottom: 50px;
+	}
+	
+	.pubs-image {
+	    width: 100%;
+	    margin-bottom: 20px;
+    }
+    
+    #page-title {
+        text-align: justify
+    }
+}
+/* desktop */
+@media only screen and (min-width: 1025px) {
+	.container-pubs {
+		padding-top: 60px;
+	}
+	
+	#pubs-container-title-div {
+        display: block;
+        padding-top: 120px;
+    }
+
+	.pubs-div {
+	    /* height: 0;
+	    padding-bottom: 100%; */
+	    display: flex;
+	    width: 65%;
+	    height: 150px;
+	}
+	
+	.pubs-image {
+	    display: inline;
+	    width: 250px;
+	    margin-right: 20px;
+    }
+    
+    .pubs-info-div {
+	    display: inline-block;
+    }
+    
+    #page-title {
+        text-align: center
+    }
+    
+    #pubs-container-title-div {
+        padding-bottom: 20px;
+    }
+}

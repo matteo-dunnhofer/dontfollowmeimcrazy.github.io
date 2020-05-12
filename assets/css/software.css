@@ -1,0 +1,50 @@
+.container-software {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.content-software {
+	/* height: 0;
+	padding-bottom: 100%; */
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+.software-title {
+	word-break: break-word;
+	text-align: center;
+}
+.software-description {
+	text-align: justify;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+	.container-software {
+		padding-top: 20px;
+	}
+
+	.content-software {
+		width: 85%;
+	}
+}
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px)  {
+	.container-software {
+		padding-top: 100px;
+	}
+
+	.content-software {
+		width: 65%;
+	}
+}
+/* desktop */
+@media only screen and (min-width: 1025px) {
+	.container-software {
+		padding-top: 120px;
+	}
+
+	.content-software {
+		width: 50%;
+	}
+}

@@ -1,0 +1,139 @@
+/* body content */
+#content-about-me {
+	margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.about-me {
+	margin: 0 auto;
+	padding-top: 20px;
+}
+#hello-about-me {
+	font-size: 25px;
+	text-align: center;
+}
+.text-about-me {
+	margin: 0 auto;
+	text-align: justify;
+	padding-top: 20px;
+}
+#text-about-me-3 {
+	padding-bottom: 20px;
+}
+
+/* logos */
+#content-logos {
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.content-logo {
+	width: 25px;
+    height: 25px;
+}
+/* news */
+#content-news {
+	margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+#news-title {
+    margin: 0 auto;
+	font-size: 22px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.text-news {
+	margin: 0 auto;
+	text-align: justify;
+	padding-bottom: 7px;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+	/* body content */
+	#content-about-me {
+		padding-top: 35px;
+	}
+	/* profile image */
+	#profile-image {
+    	width: 100px;
+    	height: 100px;
+	}
+	.text-about-me {
+		width: 85%;
+	}
+	.about-me {
+		width: 85%;
+	}
+	#content-news {
+		padding-top: 10px;
+	}
+	.text-news {
+	    width: 85%;
+    }
+
+	/* logos */
+	#content-logos {
+		width: 85%;
+	}
+}
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	/* body content */
+	#content-about-me {
+		padding-top: 60px;
+	}
+	/* profile image */
+	#profile-image {
+    	width: 125px;
+    	height: 125px;
+	}
+	.text-about-me {
+		width: 65%;
+	}
+	.about-me {
+		width: 65%;
+	}
+	#content-news {
+		padding-top: 50px;
+	}
+	.text-news {
+	    width: 65%;
+    }
+
+	/* logos */
+	#content-logos {
+		width: 65%;
+	}
+}
+/* desktop */
+@media only screen and (min-width: 1025px) {
+	/* body content */
+	#content-about-me {
+		padding-top: 60px;
+	}
+	/* profile image */
+	#profile-image {
+    	width: 125px;
+   	 	height: 125px;
+	}
+	.text-about-me {
+		width: 50%;
+	}
+	.about-me {
+		width: 50%;
+	}
+	#content-news {
+		padding-top: 60px;
+	}
+	.text-news {
+	    width: 50%;
+    }
+
+	/* logos */
+	#content-logos {
+		width: 50%;
+	}
+}

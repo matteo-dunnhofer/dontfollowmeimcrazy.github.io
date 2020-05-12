@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+#index {
+  background: url("../images/orso_opt.jpg") no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+
+/* header */
+.header {
+    width: 100%;
+    height: 25%;
+}
+
+.title {
+    display: inline-block;
+    float: left;
+    /* padding-left: 15%; */
+}
+
+/* menu and menu items style */
+.dropdown {
+    /* position: relative; */
+    float: right;
+    /* padding-right: 15%; */
+    display: inline-block;
+}
+
+.content-title-main {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+/* menu and menu items style */
+.logo-hamburger {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    margin-left: -18px;
+    margin-top: 8px;
+    display: inline-block;
+}
+.content-title {
+    padding: 5px;
+    margin: 0px;
+    display: inline-block;
+}
+.dropdown-content {
+    text-align: right;
+    /*background-color: white;*/
+   /* padding: 6px 40px; */
+    z-index: 1;
+    height: 0;
+    width: inherit;
+    -webkit-transition: height 1s;
+    transition: height 1s;
+    overflow: hidden;
+    /* position: absolute; */
+    /* margin-left: -18px; */
+    /*left: 0;*/
+    width: 100%;
+}
+
+.dropdown:hover .content-title {
+    color: gray;
+}
+.dropdown:hover .logo-hamburger {
+    content: url('../images/logos/hamburger-gray.png');
+}
+
+/* footer */
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    /*position: absolute;*/
+    bottom: 0px;
+}
+#footer {
+	display: inline-block;
+    	font-size: 12px;
+    	margin-bottom: 5px;
+    	margin-top: 7px;
+}
+.iubenda-ibadge {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* body content */
+.body-content {
+    width: 100%;
+}
+/* background image */
+.img-background {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* fonts definitions */
+h1, h2, h3, h4, h5, a, b, p, pre, form, input, button, textarea {
+    font-family: 'Computer Modern Serif';
+}
+
+/* links settings */
+a:link, a:visited {
+    word-break: break-word;	
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+.menu-item:hover {
+    color: gray;
+}
+.normal-link:link {
+    text-decoration: underline;
+}
+.no-underline-link:link {
+    text-decoration: none;
+}

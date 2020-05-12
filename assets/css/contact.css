@@ -1,0 +1,118 @@
+/* body content */
+.content-contact {
+	margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#contact-form {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.input {
+	font-size: 15px;
+	border: 1px solid;
+	border-color: black;
+	border-radius: 3px;
+	text-align: center;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#contact-body {
+	font-size: 15px;
+	border-radius: 3px;
+	resize: none;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#text-contact {
+	text-align: center;
+	margin: 0 auto;
+}
+#text-contact-email {
+	font-family: 'Ubuntu Mono';
+	text-align: center;
+	margin: 0 auto;
+}
+#link-contact-email {
+	font-family: 'Ubuntu Mono';
+}
+#map {
+    width: 100%;
+    background-color: grey
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type=button] {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: white;
+    font-family: 'Computer Modern Serif';
+    font-size: 12px;
+}
+input[type=button]:hover {
+    border-color: gray;
+    color: gray;
+}
+input[type=button]:visited {
+    background-color: black;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+	/* body content */
+	.content-contact {
+		padding-top: 20px;
+	}
+	#contact-form {
+		width: 85%;
+	}
+	#text-contact {
+		width: 85%;
+	}
+	#map {
+        width: 85%;
+        height: 200px;
+    }
+}
+/* tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+	/* body content */
+	.content-contact {
+		padding-top: 60px;
+	}
+	#contact-form {
+		width: 65%;
+	}
+	#text-contact {
+		width: 65%;
+	}
+	#map {
+        width: 65%;
+        height: 300px;
+    }
+}
+/* desktop */
+@media only screen and (min-width: 1025px) {
+	/* body content */
+	.content-contact {
+		padding-top: 60px;
+	}
+	#contact-form {
+		width: 30%;
+	}
+	#text-contact {
+		width: 50%;
+	}
+	#map {
+        width: 50%;
+        height: 400px;
+    }
+}

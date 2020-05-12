@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+	/*.title {
+    	margin: 0 auto;
+    	text-align: center;
+	}*/
+
+	/* menu and menu items style */
+	.dropdown {
+    	/* width: 100%;
+    	text-align: center; */
+	}
+	.content-title {
+    	display: inline-block;
+	}
+	.logo-hamburger {
+    	display: inline-block;
+    	/* margin-left : 0px; */
+	}
+
+	.dropdown-content.click {
+		height: 130px;
+	}
+	.dropdown-content{
+		margin-top: 20px;
+		left: -25px;
+	}
+	/* body content */
+	.img-text {
+		position: relative;
+    	top: -85px;
+    	right: -5%;
+		font-size: 18px;
+		color: white;
+	}
+
+	.header {
+        margin: 0 auto;
+        width: 85%;
+        text-align: center;
+    }
+}
