@@ -63,7 +63,7 @@
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px)  {
 	.container-pubs {
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 
 	.content-pubs {
@@ -73,7 +73,7 @@
 /* desktop */
 @media only screen and (min-width: 1025px) {
 	.container-pubs {
-		padding-top: 120px;
+		padding-top: 60px;
 	}
 
 	.content-pubs {

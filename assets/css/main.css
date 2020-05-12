@@ -38,13 +38,15 @@ body {
     margin: 0px;
 }
 
+
+
 /* menu and menu items style */
 .logo-hamburger {
     width: 18px;
     height: 18px;
     position: absolute;
     margin-left: -18px;
-    margin-top: 8px;
+    margin-top: 9px; /* 13px for open sans, 9px for lato */
     display: inline-block;
 }
 .content-title {
@@ -73,6 +75,17 @@ body {
 }
 .dropdown:hover .logo-hamburger {
     content: url('../images/logos/hamburger-gray.png');
+}
+
+.menu-item-p {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 4px;
+}
+.menu-item-p:hover {
+    color: white;
+    background-color: black;
 }
 
 /* footer */
@@ -108,7 +121,8 @@ footer {
 
 /* fonts definitions */
 h1, h2, h3, h4, h5, a, b, p, pre, form, input, button, textarea {
-    font-family: 'Computer Modern Serif';
+    /*font-family: 'Computer Modern Serif';*/
+    font-family: 'Lato';
 }
 
 /* links settings */

@@ -11,12 +11,13 @@
         white-space: nowrap;
         overflow: hidden;
         height: 100%;
-        /* width: 0; */
-        -webkit-transition: width 1s;
-        transition: width 1s;
+        width: 57px; /* 62px for open sans, 57px for lato */
+        /* width: 0; 
+         -webkit-transition: width 1s;
+        transition: width 1s; */
     }
     .title:hover #bracket-content {
-        width: 62px; /* 178 for matteo dunnhofer */
+        /* width: 62px;*/ /* 178 for matteo dunnhofer */
     }
 
     /* menu and menu items style */
@@ -37,7 +38,7 @@
         height: 200px;
     }*/
     .dropdown-content.hover {
-        height: 130px;
+        height: 80px; /* 90px for open sans, 80px for lato*/
     }
     .dropdown-content a {
         opacity: 1;
