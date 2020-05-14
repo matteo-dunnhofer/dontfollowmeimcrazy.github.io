@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My first Kaggle competition</title>
+
+	<!-- heading -->
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes ">
+<link href="http://dontfollowmeimcrazy.github.io/assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="http://dontfollowmeimcrazy.github.io/assets/css/main-phone.css" rel="stylesheet" type="text/css">
+<link href="http://dontfollowmeimcrazy.github.io/assets/css/main-tablet.css" rel="stylesheet" type="text/css">
+<link href="http://dontfollowmeimcrazy.github.io/assets/css/main-desktop.css" rel="stylesheet" type="text/css">
+
+<meta name="author" content="Matteo Dunnhofer" >
+<meta name="keywords" content="computer science, artificial intelligence, machine learning, deep learning, reinforcement learning, computer vision, medical image analysis, skateboarding, tarvisio, udine, uniud">
+<link rel="shortcut icon" href="http://dontfollowmeimcrazy.github.io/assets/images/logos/brackets_logo.jpg" />
+
+<!-- google analytics -->
+<?php include_once("analyticstracking.php") ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Computer Modern Serif-->
+<!-- <link rel="stylesheet" href="assets/fonts/Serif/cmun-serif.css"></link> -->
+
+<!-- Ubuntu Mono font -->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+<!-- MathJax -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<!-- cookie consent bar -->
+<!--
+<link href="css/cookie-consent.css" rel="stylesheet" type="text/css">
+<?php require_once("cookie-consent.php") ?> -->
+
+	<meta name="description" content="">
+
+	<link href="http://dontfollowmeimcrazy.github.io/assets/css/blogpost.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!-- header bar -->
+	<!-- header block -->
+<div class="header">
+	<div class="title">
+		<a href="http://dontfollowmeimcrazy.github.io/index.html"><h3 class="content-title-main" id="left-bracket">{</h3>
+                        <h3 class="content-title-main" id="bracket-content">orso.io</h3>
+                        <h3 class="content-title-main" id="right-bracket">}</h3></a>
+	</div>
+	
+	<div class="dropdown">
+		<div class="content-block">
+			<img src="http://dontfollowmeimcrazy.github.io/assets/images/logos/hamburger.png" class="logo-hamburger">
+  			<!-- <h3 class="content-title">Contents</h3> -->
+  		</div>
+	</div>
+
+  <div class="dropdown-content">
+    <!-- <a class="menu-item" href="about.html"><pre><h4>1  About</h4></pre></a> -->
+    <!-- <a class="menu-item" href="software.php"><pre><h4><b>2  Software</b></h4></pre></a> -->
+    <a class="menu-item" href="http://dontfollowmeimcrazy.github.io/publications.html"><p class="menu-item-p" ><b>Publications</b></p></a>
+    <a class="menu-item" href="http://dontfollowmeimcrazy.github.io/blog"><p class="menu-item-p" ><b>Blog</b></p></a>
+    <a class="menu-item" href="http://dontfollowmeimcrazy.github.io/contact.html"><p class="menu-item-p" ><b>Contact</b></p></a>
+  </div>
+
+  <hr style="height : 1px ; color : black ; background-color : black" >
+</div>
+
+<!-- menu click handler -->
+<script> 
+  $( document ).ready(function() {
+    $('.content-block').click(function() {
+      $('.dropdown-content').toggleClass('click');
+    });
+  });
+  $( document ).ready(function() {
+    $('.content-block').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+  $( document ).ready(function() {
+    $('.dropdown-content').hover(function() {
+      $('.dropdown-content').toggleClass('hover');
+    });
+  });
+</script>
+
+	<div class="container-blog">
+
+	<h2 class="post-title">My first Kaggle competition</h2>
+	<h5 class="post-subtitle">Posted on 05 Aug 2017 by dontfollowmeimcrazy</h5>
+
+	<div class="post-content">
+		<p>I knew of the existence of Kaggle since I started studying Machine Learning. Unfortunately, during that time I did not have the experience nor the time to take part to any competition. But in last semester I made some good experiences that helped me to develop my skills in the field. At the same time, an interesting real world problem was published as a <a href="https://www.kaggle.com/c/planet-understanding-the-amazon-from-space">competition on the  Kaggle platform</a>. And so I realised that that was the best one to give myself a challenge.</p>
+
+<div class="post-image">
+  <img class="post-image" src="http://dontfollowmeimcrazy.github.io/assets/images/blog/2017-08-04/habitation1.jpg" />
+  
+  <p class="caption">
+    An example of satellite image used in the competition. Credits: Planet and Kaggle.
+  </p>
+</div>
+
+<p><a href="https://www.planet.com">Planet Labs</a> is a private company that owns the multitude of imaging-satellites that orbit around the Earth. These satellites form a constellation that can provide a complete image of our planet, all the time. This great amount of data is used by governments and  humanitarian, business, environmental (and many more) organisations to monitor the state and the changes of Earth’s ground. These stakeholders can also use the images to study the evolution or track the variations in different (maybe critic) areas of the planet, and exactly that is the context of the competition organised by Planet and its Brazilian partner SCCON: the deforestation of the Amazon rainforest. The seriousness of this problem (and it is really serious!) obviously grabs the attention of many researchers that use satellite data to track the rapid changes that occur inside the forest. But often its the huge vastness make the process of analysing the images really tedious, and a system that could automatically identify deforestation risk zones will certainly benefit the work of these people. These kind of procedures already exist but they do not for the images produced by Planet nor at an high level of resolution. So, Planet decided to challenge Kaggle’s users with the goal to develop a software tool able to classify the atmospheric condition and ground characteristics contained inside satellite images of the Amazon.</p>
+
+<p>The dataset provided consisted of more than 40000 training examples. Every example (a chip image) was a 256px x 256px GeoTiff 4-band (red, green, blue, near infrared) image that covered an area of there forest of circa 90 hectares (950mt x 950mt circa). The associated labels explicated the weather condition (clear, cloudy, partly cloudy, haze) and the characteristics of the ground in that particular area (primary rainforest, water, habitation, agricolture, cultivation, road, bare ground, slash-and-burn cultivation, selective logging, blooming trees, conventional mines, artisanal mines and blow down). Every sample was classified with exactly one weather label and at least one (at most all) label for the ground. So, this happened to be a multi-label multi-class classification problem, instead of a classic multi-class classification. The labels were very unbalanced, making some classes really difficult to predict. Moreover, together with the GeoTiff images, Planet provided their RGB version for practice. Finally, the test set contained 61191 samples which labels had to be predicted. The metric used by Kaggle for the evaluation was the F2 score.</p>
+
+<p>Given this good amount of training data, the use of Convolutional Neural Network (today the standard approach in Computer Vision) is very natural. To produce my solution I implemented different models of CNN, and <a href="https://arxiv.org/abs/1512.03385">ResNet</a> and <a href="https://arxiv.org/abs/1608.06993">DenseNet</a> (the latest ImageNet’s competition winners) were the ones that performed best. I trained both from-scratch and pretrained nets, the latter giving some improvements in the score. Although ImageNet does not contain this kind of satellite images, the features produced by pretrained models were more meaningful. In all the models, the last activation (usually a softmax) was replaced with a sigmoid. This was done to compute every class probability independently from the other classes, and so I could use labels as one-hot vectors with many ones as the number of classes present in the image. Classic tricks like data augmentation and normalisation, learning rate scheduling etc were performed.</p>
+
+<p>The aim of Planet was to obtain models built on the GeoTiff images. Turned out from the experiments that the RGB images (provided only for practice) were more significant for the nets, and models trained on them performed definitely better than the one trained on the 4-band images. This was caused by a lot misclassifications in the latter.</p>
+
+<p>For the predictions on the test set, instead of using the output of the single models, I implemented an ensemble of the best performing nets (that I evaluated on a validation set produced splitting the training set). In particular, I made ResNet34, ResNet101, DenseNet121, DenseNet169 and DenseNet201 vote for the labels of every test example. Then, classes that obtained a vote greater of equal to half of the number of models (in this case if a label was voted by at least three models) were retained. Before that, I also optimised the threshold of the class probabilities (through a brute force search), meaning that a class was predicted if its probability was greater than a particular value.</p>
+
+<p>All the sources were developed in Python. For the models trained from scratch I used TensorFlow, to use the pretrained nets I employed PyTorch.</p>
+
+<p>My solution obtained a final F2 score of 0.92942 that earned me the 88th position (inside the top 10%) and the bronze medal.</p>
+
+<p>In conclusion, I am very happy for this first result and it has been a great and exciting experience from which a learned a lot of things. Among the others, it allowed me to study and implement complex and very effective CNNs, to face real world datasets (and they are not as the notorious you find in papers), to learn how ensembling can give a boost to prediction, and to discover the flexibility and simplicity of PyTorch.</p>
+
+	</div>
+
+</div>
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82663987-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

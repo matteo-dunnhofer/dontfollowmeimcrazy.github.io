@@ -13,7 +13,7 @@
 
 .pubs-title {
 	word-break: break-word;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 	padding-bottom: 5px;
 }
@@ -22,7 +22,7 @@
     font-weight: normal;
     font-style: italic;
 	word-break: break-word;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 	padding-bottom: 5px;
 }
@@ -30,7 +30,7 @@
 .pubs-where {
     font-weight: normal;
 	word-break: break-word;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 	padding-bottom: 5px;
 }
@@ -38,7 +38,7 @@
 .pubs-type {
     font-weight: normal;
 	word-break: break-word;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 	padding-bottom: 5px;
 }
@@ -46,7 +46,7 @@
 .pubs-link {
     font-weight: normal;
 	word-break: break-word;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 }
 
