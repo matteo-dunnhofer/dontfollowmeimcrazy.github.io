@@ -1,0 +1,1 @@
+jekyll build -d ~/Desktop/Matt/developing/github/dontfollowmeimcrazy.github.io
