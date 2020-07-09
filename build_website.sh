@@ -1,1 +1,1 @@
-jekyll build -d ~/Desktop/Matt/developing/github/dontfollowmeimcrazy.github.io
+bundle exec jekyll build -d ~/Desktop/dontfollowmeimcrazy.github.io
