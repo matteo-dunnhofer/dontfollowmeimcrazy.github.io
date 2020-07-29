@@ -74,7 +74,8 @@ body {
     color: gray;
 }
 .dropdown:hover .logo-hamburger {
-    content: url('../images/logos/hamburger-gray.png');
+    /*content: url('../images/logos/hamburger-gray.png');*/
+    opacity: 0.5;
 }
 
 .menu-item-p {
