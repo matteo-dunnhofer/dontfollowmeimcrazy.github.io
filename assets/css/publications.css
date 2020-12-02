@@ -108,12 +108,13 @@
 	}
 
 	.pubs-div {
+		text-align: center;
 	    width: 65%;
 	    padding-bottom: 50px;
 	}
 	
 	.pubs-image {
-	    width: 100%;
+	    width: 75%;
 	    margin-bottom: 20px;
     }
     
