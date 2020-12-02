@@ -82,12 +82,13 @@
 	}
 
 	.pubs-div {
+		text-align: center;
 	    width: 85%;
 	    padding-bottom: 60px;
 	}
 	
 	.pubs-image {
-	    width: 100%;
+	    width: 75%;
 	    margin-bottom: 20px;
     }
     
@@ -135,7 +136,7 @@
 	    /* height: 0;
 	    padding-bottom: 100%; */
 	    display: flex;
-	    width: 65%;
+	    width: 50%;
 	    height: 150px;
 	}
 	
