@@ -100,6 +100,10 @@
         padding-bottom: 50px;
     }
 
+    .pubs-links  {
+    	text-align: left;
+    }
+
 }
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px)  {
@@ -120,6 +124,10 @@
     
     #page-title {
         text-align: justify
+    }
+
+    .pubs-links {
+    	text-align: left;
     }
 }
 /* desktop */
