@@ -11,7 +11,7 @@
         white-space: nowrap;
         overflow: hidden;
         height: 100%;
-        width: 152px; /* 62px for open sans, 57px for lato */
+        width: 156px; /* 62px for open sans, 152px for lato no -, 156px otherwise */
         /* width: 0; 
          -webkit-transition: width 1s;
         transition: width 1s; */
