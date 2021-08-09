@@ -78,6 +78,10 @@
 	#content-logos {
 		width: 85%;
 	}
+	.content-logo {
+		width: 35px;
+	    height: 35px;
+	}
 }
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
