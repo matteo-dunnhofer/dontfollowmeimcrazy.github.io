@@ -1,1 +1,1 @@
-jekyll build -d ~/Desktop/Matt/developing/github/matteo-dunnhofer.github.io
+jekyll build -d ~/Desktop/Matt/developing/github/matteo-dunnhofer.github.io --trace
