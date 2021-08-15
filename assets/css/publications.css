@@ -128,13 +128,17 @@
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px)  {
 	.container-pubs {
-		padding-top: 100px;
+		padding-top: 20px;
+	}
+
+	#pubs-title-page-div {
+		padding-bottom: 20px;
 	}
 
 	.pubs-div {
 		text-align: center;
 	    width: 65%;
-	    padding-bottom: 50px;
+	    padding-bottom: 100px;
 	}
 	
 	.pubs-image {
