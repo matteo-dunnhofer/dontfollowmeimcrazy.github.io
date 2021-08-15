@@ -84,7 +84,10 @@
     margin: 0 auto;
 }
 
-.pubs-page-title {
+#pubs-container-title-div {
+	text-align: left;
+}
+.pubs-page-title-h {
 	margin: 0px;
 }
 
@@ -116,6 +119,10 @@
     .pubs-links  {
     	text-align: left;
     }
+
+    #pubs-container-title-div {
+		padding-bottom: 20px;
+	}
 
 }
 /* tablets */
