@@ -38,7 +38,7 @@
         height: 200px;
     }*/
     .dropdown-content.hover {
-        height: 85px; /* 90px for open sans, 90px for lato*/
+        height: 90px; /* 90px for open sans, 90px for lato*/
     }
     .dropdown-content a {
         opacity: 1;
