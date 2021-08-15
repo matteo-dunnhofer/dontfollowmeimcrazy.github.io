@@ -83,6 +83,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 2px;
+    font-size: 16px;
 }
 .menu-item-p:hover {
     color: white;
