@@ -34,6 +34,13 @@
 	margin: 0;
 }
 
+#pubs-title-page-div {
+	text-align: left;
+}
+.pubs-page-title-h {
+	margin: 0px;
+}
+
 /* phones */
 @media only screen and (max-width: 600px) {
 	.container-blog {
