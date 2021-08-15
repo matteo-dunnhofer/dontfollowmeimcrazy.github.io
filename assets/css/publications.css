@@ -150,7 +150,7 @@
 	}
 	
 	.pubs-image {
-	    width: 75%;
+	    width: 50%;
 	    margin-bottom: 20px;
     }
     
@@ -172,6 +172,10 @@
         display: block;
         padding-top: 20px;
     }
+
+    #pubs-title-div {
+		padding-bottom: 30px;
+	}
 
 	.pubs-div {
 	    /* height: 0;
