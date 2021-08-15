@@ -74,7 +74,7 @@
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px)  {
 	.container-pubs {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 
 	.content-pubs {
@@ -84,7 +84,7 @@
 /* desktop */
 @media only screen and (min-width: 1025px) {
 	.container-pubs {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 
 	.content-pubs {
