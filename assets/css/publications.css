@@ -84,6 +84,10 @@
     margin: 0 auto;
 }
 
+.pubs-page-title {
+	margin: 0px;
+}
+
 /* phones */
 @media only screen and (max-width: 600px) {
 	.container-pubs {
