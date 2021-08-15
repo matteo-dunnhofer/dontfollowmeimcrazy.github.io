@@ -142,12 +142,12 @@
 /* desktop */
 @media only screen and (min-width: 1025px) {
 	.container-pubs {
-		padding-top: 60px;
+		padding-top: 20px;
 	}
 	
 	#pubs-container-title-div {
         display: block;
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
 	.pubs-div {
