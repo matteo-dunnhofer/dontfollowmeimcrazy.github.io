@@ -36,6 +36,7 @@
 
 #pubs-title-page-div {
 	text-align: left;
+	padding-bottom: 40px;
 }
 .pubs-page-title-h {
 	margin: 0px;
@@ -51,14 +52,14 @@
 /* tablets */
 @media only screen and (min-width: 601px) and (max-width: 1024px)  {
 	.container-blog {
-		padding-top: 60px;
+		padding-top: 20px;
 		width: 65%;
 	}
 }
 /* desktop */
 @media only screen and (min-width: 1025px) {
 	.container-blog {
-		padding-top: 60px;
+		padding-top: 20px;
 		width: 50%;
 	}
 }
