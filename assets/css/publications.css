@@ -97,6 +97,10 @@
 		padding-top: 20px;
 	}
 
+	#pubs-title-page-div {
+		padding-bottom: 20px;
+	}
+
 	.pubs-div {
 		text-align: center;
 	    width: 85%;
@@ -119,10 +123,6 @@
     .pubs-links  {
     	text-align: left;
     }
-
-    #pubs-title-page-div {
-		padding-bottom: 20px;
-	}
 
 }
 /* tablets */
