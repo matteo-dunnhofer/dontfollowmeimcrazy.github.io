@@ -84,7 +84,7 @@
     margin: 0 auto;
 }
 
-#init-title-page-div {
+#pubs-title-page-div {
 	text-align: left;
 }
 .init-page-title-h {
@@ -97,7 +97,7 @@
 		padding-top: 20px;
 	}
 
-	#init-title-page-div {
+	#pubs-title-page-div {
 		padding-bottom: 20px;
 	}
 
@@ -135,7 +135,7 @@
 		padding-top: 20px;
 	}
 
-	#init-title-page-div {
+	#pubs-title-page-div {
 		padding-bottom: 20px;
 	}
 
