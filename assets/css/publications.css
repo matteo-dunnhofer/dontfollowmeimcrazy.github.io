@@ -15,6 +15,14 @@
 	margin: 0 auto;
 }
 
+.init-div {
+	/* height: 0;
+	padding-bottom: 100%; */
+	padding-bottom: 40px;
+	margin: 0 auto;
+	text-align: left;
+}
+
 .pubs-div {
 	/* height: 0;
 	padding-bottom: 100%; */
@@ -89,6 +97,9 @@
 }
 .pubs-page-title-h {
 	margin: 0px;
+}
+#init-title-page-div {
+	text-align: left;
 }
 
 /* phones */
