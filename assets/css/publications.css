@@ -98,9 +98,7 @@
 .pubs-page-title-h {
 	margin: 0px;
 }
-#init-title-page-div {
-	text-align: left;
-}
+
 
 /* phones */
 @media only screen and (max-width: 600px) {
@@ -138,6 +136,7 @@
     .pubs-links  {
     	text-align: left;
     }
+
 
 }
 /* tablets */
